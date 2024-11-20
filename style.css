@@ -1,0 +1,97 @@
+*
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;    
+}
+
+body
+{
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("mathematics-numbers-on-black-cubes-fs2tr12a19e2etck.jpg");
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;   
+}
+
+.calculator
+{
+width: 320px;
+background-color: silver;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.display
+{
+width: 100%;
+height: 70px;
+text-align: right;
+font-size: 2rem;
+padding: 10px;
+border: 2px solid #ccc;
+border-radius: 5px;
+margin-bottom: 20px;
+background-color: white;
+}
+
+.buttons
+{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+}
+
+.btn
+{
+padding: 20px;
+font-size: 1.5rem;
+background-color: #f1f1f1;
+border: 1px solid #ddd;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.btns
+{
+background-color:  rgb(137, 218, 255);
+padding: 20px;
+font-size: 1.5rem;
+border: 1px solid #ddd;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.btnss
+{
+background-color: rgb(134, 255, 138);
+padding: 20px;
+font-size: 1.5rem;
+border: 1px solid #ddd;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.btns:hover
+{
+background-color: #56bfc9;
+}
+
+.btnss:hover
+{
+background-color: rgb(98, 244, 98);
+}
+
+.btn:hover
+{
+background-color: #dedbdb;
+}
+
+/*button:active {
+    background-color: #9a8f8f;
+}*/
